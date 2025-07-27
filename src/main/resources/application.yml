@@ -1,1 +1,8 @@
-spring.application.name=DDoS-Sheild-backend
+spring:
+  application:
+    name: DDoS-Shield-Backend
+  profiles:
+    group:
+      test: "test"
+      local: "local, datasource"
+      prod: "prod, datasource"
